@@ -1,6 +1,7 @@
 Alyra's 4th project ! A good old NFT Marketplace ! :D
 
 watch demo here : https://www.youtube.com/watch?v=5foo15Ur9yw
+(j'ai mis la video de demo en vitesse x2... elle faisait 18 minutes).
 
 Testé sur Goerli pendant la demo car problemes étranges avec hardhat... je ne sais pas si cela vient de mon code ou mon PC...
 
