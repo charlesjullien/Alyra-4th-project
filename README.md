@@ -7,11 +7,16 @@ Testé sur Goerli pendant la demo car problemes étranges avec hardhat... je ne 
 
 les contrats ont déjà été déployés dans ce repo (c'est ceux de la video demo). Les abis et addresses sont présentes dans le front dans /src/artifacts/.
 
+launch project :
+
+insert .env file in backend with mtching keys from hardhat.config.js
 
 
 cd backend
 
 yarn install
+
+bash script.sh
 
 cd ../frontend
 
