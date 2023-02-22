@@ -1,13 +1,16 @@
-# Sample Hardhat Project
+Alyra's 4th project ! A good old NFT Marketplace ! :D
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+watch demo here : https://www.youtube.com/watch?v=5foo15Ur9yw
 
-Try running some of the following tasks:
+Testé sur Goerli pendant la demo car problemes étranges avec hardhat... je ne sais pas si cela vient de mon code ou mon PC...
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+
+les contrats ont déjà été déployés dans ce repo (c'est ceux de la video demo). Les abis et addresses sont présentes dans le front dans /src/artifacts/.
+
+
+
+cd backend
+yarn install
+cd ../frontend
+yarn install
+yarn start
