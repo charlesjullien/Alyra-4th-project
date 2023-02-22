@@ -10,7 +10,11 @@ les contrats ont déjà été déployés dans ce repo (c'est ceux de la video de
 
 
 cd backend
+
 yarn install
+
 cd ../frontend
+
 yarn install
+
 yarn start
