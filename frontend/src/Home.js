@@ -55,7 +55,7 @@ const Home = ({ marketplace, nft, account}) => {
           <Row>
             {nfts.map((nft, idx) => (
               <Col key={idx} className="overflow-hidden">
-                <Card>
+                <Card style={{ width: '18rem', height: '25rem' }}>
                   <Card.Img variant="top" src={nft.image} />
                   <Card.Body color="text-dark">
                     <Card.Title>{nft.name}</Card.Title>
