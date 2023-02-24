@@ -52,10 +52,10 @@ const Home = ({ marketplace, nft, account}) => {
     <div className="flex justify-center">
       {nfts.length > 0 ?
         <div className="px-5 container">
-          <Row>
+          <Row xs={1} md={2} lg={4} className="g-4 py-5">
             {nfts.map((nft, idx) => (
               <Col key={idx} className="overflow-hidden">
-                <Card style={{ width: '18rem', height: '25rem' }}>
+                <Card>
                   <Card.Img variant="top" src={nft.image} />
                   <Card.Body color="text-dark">
                     <Card.Title>{nft.name}</Card.Title>
