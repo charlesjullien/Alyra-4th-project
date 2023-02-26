@@ -15,12 +15,15 @@ module.exports = {
   networks: {
     localhost: {
       url: "http://127.0.0.1:8545",
-      chainId: 31337
+      chainId: 31337,
+      allowUnlimitedContractSize: true //to enable contracts interaction in /backend/scripts/deploy.js
     },
     goerli: {
       url: INFURA,
       accounts: [`0x${PK}`],
       chainId: 5,
+      // gas: 2100000,  //uncomment to enable contracts interaction in /backend/scripts/deploy.js
+      // gasPrice: 8000000000 //same
     },
     polygonMumbai: {
       url: ALCHEMY,
